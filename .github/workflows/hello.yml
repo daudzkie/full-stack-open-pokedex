@@ -10,7 +10,7 @@ on:
     
 jobs:
   hellow_daudzkie_job:
-    runs-on: ubuntu-18.04
+    runs-on: Linux 5.0.0-32-generic
     steps:
       - name: Say hello daudzkie gwapo
         run: |
