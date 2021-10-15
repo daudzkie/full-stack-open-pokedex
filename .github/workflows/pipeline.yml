@@ -1,10 +1,10 @@
-name: Deployment pipeling
+name: Deployment pipeline
 
 on:
   push:
     branches:
       - master
-    
+      
 jobs:
   simple_deployment_pipeline:
     runs-on: windows-latest
