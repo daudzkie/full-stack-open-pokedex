@@ -1,1 +1,21 @@
+name: Hellow Daudzkie!
 
+on: 
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [master]
+    types: [opened, synchronize]
+    
+jobs:
+  hellow_daudzkie_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Say hello daudzkie gwapo
+        run: |
+          echo "Hello Daudzkie Gwapo!"
+      - name: Now it is
+        run: date
+      - name: Directory content
+        run: 1s -1
