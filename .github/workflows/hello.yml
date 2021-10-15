@@ -10,7 +10,7 @@ on:
     
 jobs:
   hellow_daudzkie_job:
-    runs-on: Linux 5.0.0-32-generic
+    runs-on: ubuntu-latest
     steps:
       - name: Say hello daudzkie gwapo
         run: |
@@ -18,4 +18,4 @@ jobs:
       - name: Now it is
         run: date
       - name: Directory content
-        run: 1s -1a
+        run: 1s -1
