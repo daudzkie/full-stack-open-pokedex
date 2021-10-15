@@ -16,6 +16,8 @@ jobs:
         run: |
           echo "Hello Daudzkie Gwapo!"
       - name: Now it is
-        run: date
+        run: |
+          echo $NOW
+        
       - name: Directory content
         run: 1s -1
